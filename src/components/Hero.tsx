@@ -63,16 +63,16 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="animate-fade-in animation-delay-300 flex justify-center lg:justify-end">
-          <div className="portrait-card relative w-full max-w-sm">
+        <div className="animate-fade-in animation-delay-300 flex justify-center px-2 sm:px-4 lg:justify-end lg:pr-2">
+          <div className="portrait-card relative w-full max-w-[19rem] sm:max-w-sm">
             <div className="portrait-glow absolute -inset-6 rounded-3xl" />
-            <div className="relative overflow-hidden rounded-2xl border border-white/25 shadow-2xl shadow-black/40">
+            <div className="relative overflow-hidden rounded-2xl border border-white/25 p-1.5 shadow-2xl shadow-black/40 sm:p-2">
               <img
-                src="/images/mario-portrait.jpg"
+                src="/images/mario-portrait-hero.jpg"
                 alt="Mario Daniel Romero, author of The Barter Life"
-                className="aspect-[4/5] w-full object-cover object-top"
+                className="aspect-[9/8] w-full rounded-xl object-cover object-center"
               />
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0a1522]/90 to-transparent px-5 py-6">
+              <div className="absolute inset-x-1 bottom-1 rounded-b-xl bg-gradient-to-t from-[#0a1522]/90 via-[#0a1522]/50 to-transparent px-5 py-6 sm:inset-x-1.5 sm:bottom-1.5">
                 <p className="font-serif text-lg text-white">Mario Daniel Romero</p>
                 <p className="text-sm text-white/75">Author &amp; Founder</p>
               </div>

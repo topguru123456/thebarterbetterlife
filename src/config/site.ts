@@ -17,7 +17,7 @@ export const siteConfig = {
   amazonBook: '#',
 
   // Placeholder social links
-  facebook: '#',
+  facebook: 'https://www.facebook.com/share/1DF6sfSvP6/?mibextid=wwXIfr',
   instagram: '#',
 
   // Mario's Roofing
