@@ -13,10 +13,10 @@ function App() {
       <Hero />
       <WaveDivider />
       <About />
+      <Book />
       <WaveDivider fill="navy" flip />
       <BrandPhilosophy />
       <Watch />
-      <Book />
       <Footer />
       <AnnouncementBar />
     </div>

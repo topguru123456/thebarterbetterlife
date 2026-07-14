@@ -4,7 +4,7 @@ import { Reveal } from './Reveal'
 
 export function Watch() {
   return (
-    <section className="bg-cream-dark px-6 py-20 sm:py-28">
+    <section id="watch" className="scroll-mt-24 bg-cream-dark px-6 py-20 sm:py-28">
       <div className="mx-auto max-w-4xl text-center">
         <Reveal>
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-sunset">

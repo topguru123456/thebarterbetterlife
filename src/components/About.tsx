@@ -9,7 +9,7 @@ export function About() {
             About the Book
           </p>
           <h2 className="mb-8 font-serif text-3xl font-semibold text-navy sm:text-4xl">
-            Real lessons from a life of barter
+            Finding the better life
           </h2>
         </Reveal>
 
